@@ -14,12 +14,6 @@ public class Sponge {
    * spongeCase("debí tirar más fotos") should return dEbÍ tIrAr mÁs fOtOs" (note the accents)
    * spongeCase("E")  should return "e"
    * spongeCase("e")  should return "e"
-   * 
-   * Hints:
-   * There exist the following methods in java:
-   * Character.toUpperCase() (e.g. Character.toUpperCase('f'))
-   * Character.toLowerCase() (e.g. Character.toLowerCase('Q'))
-   * .toCharArray() String method (e.g. myString.toCharArray())
    */
   public static void main(String[] args) {
     // Test cases

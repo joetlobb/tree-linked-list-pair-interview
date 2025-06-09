@@ -65,19 +65,19 @@
  public class PigSolution {
 
   /*
-    * Create a method "pigLatin" that takes a string consisting of one or more 
-    * all-lowercase words separated by spaces. It should return a new string 
-    * converted to "pig Latin," where each word has its first letter moved to 
-    * the back and the letters "ay" are added to the end of the word. However, 
-    * words starting with a vowel (a, e, i, o, or u) should not be altered.
-    *
-    * Examples:
-    *
-    * pigLatin("something")  should return "omethingsay"
-    * pigLatin("awesome")    should return "awesome" (words starting with a vowel should not be altered)
-    * pigLatin("latin is a hard language")  should return "atinlay is a ardhay anguagelay"
-    * pigLatin("y")  should return "yay"
-    * pigLatin("e")   should return "e"
+   * Create a method that takes a string consisting of one or more 
+   * all-lowercase words separated by spaces. It should return a new string 
+   * converted to "pig Latin," where each word has its first letter moved to 
+   * the back and the letters "ay" are added to the end of the word. However, 
+   * words starting with a vowel (a, e, i, o, or u) should not be altered.
+   *
+   * Examples:
+   *
+   * pigLatin("something")  should return "omethingsay"
+   * pigLatin("awesome")    should return "awesome" (words starting with a vowel should not be altered)
+   * pigLatin("latin is a hard language")  should return "atinlay is a ardhay anguagelay"
+   * pigLatin("y")  should return "yay"
+   * pigLatin("e")   should return "e"
    */
   public static void main(String[] args) {
     // Test cases

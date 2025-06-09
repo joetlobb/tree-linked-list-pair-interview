@@ -3,29 +3,34 @@
 You will be working with a partner to practice technical interviews. One person will present (be the interviewer) for Sponge. One person will present (be the interviewer) for Pig.
 
 
-## Step 1 - In-class
+## Step 1
 **Decide with your partner who will present which question now**
 
-Follow the directions on canvas for the pair interview signup
+DO NOT YET LOOK AT ANY OF THE FILES in `src`
 
-## Step 2 - Individually
-In "Pig/Sponge Interview Signup" you submitted which question your partner will be asking you. For this individual assignment, you will be doing THE OTHER PROBLEM. For example, if your interviewer is asking you "Sponge", you should do "Pig" for this assignment. DO NOT LOOK AT THE PROBLEM YOUR PARTNER WILL ASK YOU.
+## Step 2
+Each of you should separately fork and clone this repository. You should each have your own fork.
 
-Set aside 30 minutes where you can work without stopping and with no distractions. Start a timer for 30 minutes, and open the problem you are to work on, (for example, Pig.java).
+DO NOT YET LOOK AT ANY OF THE FILES in `src`
 
-Work on the problem for at least 30 minutes with NO OUTSIDE RESOURCES (no notes, googling, etc). If you are not finished after 30 minutes, that's OK! If you are still making progress, continue to solve the problem. If after 30 minutes you are stuck, you can look at the solution (e.g. PigSolution.java) for help. Go back and finish your solution after, don't just copy/paste from the solution. Add/commit/push your solution.
+## Step 3 
+Take 10 minutes to separately each look at the solution for the question you are going to present.
 
-Regardless of whether you completed it within the time or not, still look at the solution and read the interviewer guide. It has hints on how you can help your partner if they get stuck.
+If you are going to present Sponge, look at `SpongeSolution.java`
+If you are going to present Pig, look at `PigSolution.java`
 
-To submit this assignment copy your finished code on Canvas. Do not yet make a PR.
+DO NOT LOOK AT THE FILES FOR THE OTHER QUESTION.
 
+Read through the solution. Understand the question that is being asked, and how the sample solution works. Look at the notes to the interviewer at the bottom. This will give you suggestions on how to answer your partner's questions or help them if they are getting stuck.
 
-## Step 3 - Pair
-With your interviewer, do a live interview for the problem you have not yet solved. Your interviewer should have already solved this problem. You should both have already cloned the repository.
+## Step 4
+After 10 minutes, choose one person to be interviewer first. 
 
-The interviewer should have the solution on their computer so they can answer questions the candidate has and give hints. They should be able to see the candidate's progress via liveshare or Zoom.
+Prepare a timer for 30 minutes, but do not start it yet.
 
-The interviewer should read the question out loud to the candidate. Once the interviewer is done reading, start the timer. Spend 30 minutes on the interview, staying in character for the whole time.
+Open the question on the candidate's computer. For example, if you are presenting (are the interviewer for) Sponge, then your partner (the candidate) should open `Sponge.java` on their computer. Both partners should look at the candidate's computer together throughout the interview.
+
+The interviewer should read the question out loud to the candidate. Once the interviewer is done reading, start the timer.
 
 During the interview, the following is allowed:
 - Running the code
@@ -33,6 +38,13 @@ During the interview, the following is allowed:
 - Asking the interviewer questions
 - Using web searches to search for Java syntax (e.g "how to convert a character to uppercase Java")
 
-Once you are finished, have a short discussion with your interviewer about how it went. Please be kind and gentle to each other and yourself!
+DO NOT USE AI AT ANY POINT
 
-On your own time, please finish the problem. It is OK to look at the sample solution. Add/commit/push your code and make a PR against the original repository. There are reflection questions on Canvas. Please answer them individually.
+## Step 5 (Once time is up)
+Once the 30 minute timer goes off, stop the interview, regardless of how much progress was made. It is OK and expected not to finish! Take a short (5-10 minute) break. Then switch roles and do the interview for the other question.
+
+## Step 6
+After both partners have gone, submit the short post-interview survey on Canvas. This is how you will get credit. It should take only a minute or two to complete, please complete it today.
+
+## Step 7
+If you did not finish your problem, please complete it for homework. Make a PR against the original repo and submit a link to your PR on Canvas. You can optionally implement the other problem on your own if you want extra practice.
