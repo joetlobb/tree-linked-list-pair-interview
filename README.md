@@ -1,6 +1,6 @@
 # READ THIS README BEFORE OPENING FILES
 
-You will be working with a partner to practice technical interviews. One person will present (be the interviewer) for Sponge. One person will present (be the interviewer) for Pig.
+You will be working with a partner to practice technical interviews. One person will present (be the interviewer) for Strange. One person will present (be the interviewer) for Cumulative.
 
 
 ## Step 1
@@ -16,8 +16,8 @@ DO NOT YET LOOK AT ANY OF THE FILES in `src`
 ## Step 3 
 Take 10 minutes to separately each look at the solution for the question you are going to present.
 
-If you are going to present Sponge, look at `SpongeSolution.java`
-If you are going to present Pig, look at `PigSolution.java`
+If you are going to present Strange, look at `StrangeSolution.java`
+If you are going to present Cumulative, look at `CumulativeSolution.java`
 
 DO NOT LOOK AT THE FILES FOR THE OTHER QUESTION.
 
@@ -28,7 +28,7 @@ After 10 minutes, choose one person to be interviewer first.
 
 Prepare a timer for 30 minutes, but do not start it yet.
 
-Open the question on the candidate's computer. For example, if you are presenting (are the interviewer for) Sponge, then your partner (the candidate) should open `Sponge.java` on their computer. Both partners should look at the candidate's computer together throughout the interview.
+Open the question on the candidate's computer. For example, if you are presenting (are the interviewer for) Strange, then your partner (the candidate) should open `Strange.java` on their computer. Both partners should look at the candidate's computer together throughout the interview.
 
 The interviewer should read the question out loud to the candidate. Once the interviewer is done reading, start the timer.
 
