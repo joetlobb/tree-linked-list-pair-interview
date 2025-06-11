@@ -17,10 +17,12 @@ public class BlueQ1 {
      *   The sum of the even leaf nodes is 8+16+22 = 46
      * 
      * If the root is null, return 0.
-     * @param root
-     * @return
+     * If there are no even leaf nodes, return 0.
+     * 
+     * @param root the root of the tree
+     * @return the sum of the even leaf nodes
      */
-    public int evenLeafSum(TreeNode root) {
+    public static int evenLeafSum(TreeNode root) {
         return -1;
     }
 }

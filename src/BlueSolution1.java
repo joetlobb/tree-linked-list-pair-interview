@@ -20,7 +20,25 @@ public class BlueSolution1 {
      * @param root
      * @return
      */
-    public int evenLeafSum(TreeNode root) {
-        return -1;
+    public static int evenLeafSum(TreeNode root) {
+        // If the tree is empty, return 0
+        if (root == null) return 0;
+
+        // If this is a leaf node
+        if (root.left == null && root.right == null) {
+            // Only add its value if it's even
+            if (root.data % 2 == 0) {
+                return root.data;
+            } else {
+                return 0;
+            }
+        }
+
+        // Recurse on left and right subtrees
+        int leftSum = evenLeafSum(root.left);
+        int rightSum = evenLeafSum(root.right);
+
+        return leftSum + rightSum;
     }
+
 }
