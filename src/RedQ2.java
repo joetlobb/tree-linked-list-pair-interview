@@ -2,7 +2,21 @@ public class RedQ2 {
     /**
      * Returns which has a higher average value: a given linked list or a given tree.
      * 
+     * Example:
+     *   List:
+     *      7 -> 8 -> -2 -> 9 -> 21
+     *   Tree:
+     *            12
+     *          /    \
+     *         6      18
+     *        / \    /  
+     *       4   8  16  
+     *   Expected Answer: "tree"
      * 
+     *  Explanation:
+     *   The average of the list is (7+8+-2+9+21)/5 = 8.6
+     *   The average of the tree is (12+6+4+8+18+16)/6 ≈ 10.67
+     *   The tree has the bigger average.
      * 
      * You can assume that both the list and the tree are non-null.
      * 
