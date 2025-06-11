@@ -13,6 +13,20 @@ public class RedSolution1 {
      * @return the sum of the elements at odd indexes
      */
     public static int oddIndexSum(ListNode head) {
-        return -1;
+        int index = 0;
+        int sum = 0;
+        ListNode curr = head;
+
+        while (curr != null) {
+            // Add to sum only if index is odd
+            if (index % 2 == 1) {
+                sum += curr.data;
+            }
+
+            index++;
+            curr = curr.next;
+        }
+
+        return sum;
     }
 }
