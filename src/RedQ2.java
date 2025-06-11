@@ -1,4 +1,4 @@
-public class Cumulative {
+public class RedQ2 {
     /**
      * Returns which has a higher average value: a given linked list or a given tree.
      * 
