@@ -21,7 +21,7 @@ public class RedQ2 {
      * You can assume that both the list and the tree are non-null.
      * 
      * You can assume that the differences in averages will be large enough that
-     * rounding error will not be an issue and that there will not be a tie.
+     * floating rounding error will not be an issue and that there will not be a tie.
      * 
      * @param head the head of the linked list
      * @param root the root of the tree
