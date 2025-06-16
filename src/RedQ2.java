@@ -28,6 +28,47 @@ public class RedQ2 {
      * @return "list" if the list has a bigger average, "tree" if the tree has a bigger average
      */
     public static String biggerAverage(ListNode head, TreeNode root) {
-        return null;
+        // list 
+        // sum all the nodes divided by total no. of node
+        int sumList = head.data;
+        int countList = 1;
+        ListNode current = head.next;
+        while (current != null) {
+            sumList += current.data;
+            countList++;
+            current = current.next;
+        }
+        float avgList = sumList / countList;
+
+        // tree 
+        // sum all the tree nodes and divided by total no. of node
+        int sumTree = sumTree(root);
+        int countTree = countTree(root);
+        float avgTree = sumTree / countTree;
+        
+        
+        return avgList > avgTree ? "list" : "tree";
+    }
+
+    public static int sumTree(TreeNode node) {
+        if (node == null) return 0;
+        int sum = 0;
+        // if (node != null) {
+        //     sum += node.data;
+        // }
+        sum += sumTree(node.left);
+        sum += sumTree(node.right);
+        return node.data + sum;
+    }
+
+    public static int countTree(TreeNode node) {
+        if (node == null) return 0;
+        int count = 0;
+        // if (node != null) {
+        //     count++;
+        // } 
+        count += countTree(node.left);
+        count += countTree(node.right);
+        return 1 + count;
     }
 }
